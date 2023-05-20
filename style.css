@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.navbar span{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.nav-items{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+.book-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 150px;
+    padding: 15px;
+    background-color: #E3FFED;
+    margin-top: 15px;
+}
+.book-list ,.register-heading{
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0px 0;
+    margin: 20px 0;
+    position: relative;
+    top: 0;
+}
+table,thead,td{
+    border-collapse: collapse;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    color: black;
+}
+thead{
+    font-weight: bolder;
+}
+.table-2{
+    border-collapse: collapse;
+    margin: 10px 0;
+    width: 100%;
+}
+.library-form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 150px;
+    padding: 15px;
+    background-color: #E3FFED;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.form-items input{
+    height: 30px;
+}
+button{
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    outline: none;
+}
